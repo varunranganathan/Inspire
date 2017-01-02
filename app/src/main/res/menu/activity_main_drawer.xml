@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_solution_feed"
+            android:icon="@drawable/ic_web_black_24dp"
+            android:title="Solutions" />
+        <item
+            android:id="@+id/nav_inspire_feed"
+            android:icon="@drawable/ic_sentiment_very_satisfied_black_24dp"
+            android:title="Inspire" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_pin_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_cbt"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="CBT" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Log Out" />
+    </group>
+
+</menu>

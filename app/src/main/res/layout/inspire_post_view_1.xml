@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/inspireFeedPostUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Varun Ranganathan"
+            android:textColor="#444"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/inspireFeedPostDate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="5 AM Dec 10"
+            android:textSize="12sp"
+            android:layout_marginBottom="16dp"
+            />
+        <TextView
+            android:id="@+id/inspireFeedPostDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a post"
+            android:textSize="16dp"
+            />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
